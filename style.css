@@ -171,3 +171,7 @@ button.ghost{background:none;color:var(--bone);border-color:var(--line)}
   text-align: center;
   opacity: .9;
 }
+/* Ficha do antagonista */
+.ficha-img{cursor:zoom-in}
+.ficha-img.broken{opacity:0}
+.fgrid>.ph{aspect-ratio:3/4;border:1px dashed var(--line);border-radius:4px;background:var(--panel)}
