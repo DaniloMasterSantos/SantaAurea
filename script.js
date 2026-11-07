@@ -85,7 +85,7 @@ const FICHA=[
 {t:'Habilidades',g:'one',c:[['habilidades','Habilidades','area',1]]},
 {t:'Perícias',g:'one',c:[['pericias','Perícias','area',1]]},
 {t:'Equipamentos',g:'one',c:[['equip','Equipamentos e inventário','area',1]]},
-{t:'História',g:'one',c:[['historia','História do personagem','area',1],['notas','Anotações','area',1]]}
+{t:'História',g:'one',c:[['historia','História do personagem','area',0],['notas','Anotações','area',1]]}
 ];
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 /* Monta uma ficha editável e salvável. o = {key, imgHtml, def, sections, back:[link,texto], reset} */
